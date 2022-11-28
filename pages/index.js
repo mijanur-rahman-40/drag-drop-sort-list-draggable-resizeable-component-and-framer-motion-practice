@@ -31,8 +31,8 @@ export default function FramerMotion() {
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 3 }}
   >
-    <div className='w-52 h-48 rounded-full p-5 shadow-xl bg-white border'>
-
+    <div className='w-52 h-48 rounded-full p-5 shadow-xl bg-lime-300 border'>
+k
     </div>
   </motion.div>
 
