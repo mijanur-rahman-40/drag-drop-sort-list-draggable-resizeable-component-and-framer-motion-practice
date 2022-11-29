@@ -5,6 +5,8 @@ import GettingStarted1 from '../components/GettingStarted1';
 import Insights from '../components/Insights';
 import About from '../components/About';
 import GettingStarted2 from '../components/GettingStarted2';
+import SimpleAccordian from '../components/SimpleAccordian';
+import { ComplexAccordian } from '../components/Accordian';
 
 // Dropdown items open animation
 const variants = {
@@ -78,6 +80,8 @@ export default function FramerMotion() {
     </h1>
     <Navbar />
     <GettingStarted1 />
+    <SimpleAccordian />
+    <ComplexAccordian />
     <Insights />
     <GettingStarted2 />
     <About />
