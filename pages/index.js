@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion, } from 'framer-motion';
+import Navbar from '../components/Navbar';
 
 // Dropdown items open animation
 const variants = {
@@ -24,20 +25,21 @@ export default function FramerMotion() {
   </motion.nav>
   */
 
-
   // scale animation
+  /*
   animation = <motion.div
-    initial={{ opacity: 0, scale: 3 }}
-    animate={{ opacity: 1, scale: 1 }}
+    initial={{ opacity: 0, scale: 1}}
+    animate={{ opacity: 1, scale: 5}}
     transition={{ duration: 3 }}
   >
-    <div className='w-52 h-48 rounded-full p-5 shadow-xl bg-lime-300 border'>
-k
+    <div className='w-52 h-48  rounded-full p-5 shadow-xl bg-lime-300 border'>
+      k
     </div>
   </motion.div>
+  */
 
 
-  return <div className="flex justify-center items-center w-full h-[500px] bg-gray-100 dark:bg-gray-700">
+  return <div className="flex justify-center items-center">
     {animation}
     {/* <button
             className='bg-blue-500 p-2 rounded-xl text-white'
@@ -45,5 +47,6 @@ k
         >
             {isOpen ? 'Cose' : 'Open'}
         </button> */}
+  <Navbar/>
   </div>;
 }
