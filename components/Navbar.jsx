@@ -1,5 +1,3 @@
-'use client';
-
 import { motion } from 'framer-motion';
 import { navVariants } from '../utils/motion';
 
@@ -8,7 +6,7 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`py-8 bg-gray-300 relative`}
+    className={`py-8 bg-lime-300 relative`}
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
     <div
@@ -21,7 +19,7 @@ const Navbar = () => (
       <img
         src="/menu.svg"
         alt="menu"
-        className="w-[24px] h-[24px] object-contain"
+        className=" object-contain"
       />
     </div>
   </motion.nav>
